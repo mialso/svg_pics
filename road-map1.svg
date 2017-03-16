@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="480" height="360">
+  <defs>
+    <g id="svetofor" transform="scale(0.1)">
+      <g transform="translate(500,0)">
+        <rect x="0" y="0" width="50" height="200" style="fill: #33333;" />
+        <circle cx="25" cy="40" r="20" style="fill: #ff0000;" />
+        <circle cx="25" cy="90" r="20" style="fill: #999999;" />
+        <circle cx="25" cy="140" r="20" style="fill: #999999;" />
+      </g>
+      <line x1="0" y1="175" x2="500" y2="175"
+         style="stroke: #ffffff;stroke-width: 50;">
+      </line>
+    </g>
+    <g id="car" transform="scale(0.07)">
+      <rect x="10" y="0" width="180" height="400" style="fill: #33333;" />
+      <path d="M10,0 l50,0 a50,40,0,0,1,-50,40 Z"
+        style="fill: #ffff00;">
+      </path>
+      <path d="M190,0 l-50,0 a50,40,0,0,0,50,40 Z"
+        style="fill: #ffff00;">
+      </path>
+      <rect x="0" y="50" width="10" height="50" style="fill: #333333;" />
+      <rect x="190" y="50" width="10" height="50" style="fill: #333333;" />
+      <rect x="0" y="300" width="10" height="50" style="fill: #333333;" />
+      <rect x="190" y="300" width="10" height="50" style="fill: #333333;" />
+    </g>
+  </defs>
+  <path d="M215,360 l0,-155 l-215,0 l0,-50 l215,0 l0,-155 l50,0 l0,155 l215,0 l0,50 l-215,0 l0,155 Z"
+    style="
+      stroke: #555555;
+       stroke-width:2;
+       fill: #999999;"/>
+
+  <path d="M240,360 l0,-135"
+    style="
+      stroke: #ffffff;
+      stroke-width: 4;
+      stroke-dasharray: 10,5;"
+    />
+  <path d="M240,0 l0,135"
+    style="
+      stroke: #ffffff;
+      stroke-width: 4;
+      stroke-dasharray: 10,5;"
+    />
+  <path d="M0,180 l190,0"
+    style="
+      stroke: #ffffff;
+      stroke-width: 4;
+      stroke-dasharray: 10,5;"
+    />
+  <path d="M480,180 l-190,0"
+    style="
+      stroke: #ffffff;
+      stroke-width: 4;
+      stroke-dasharray: 10,5;"
+    />
+  <use xlink:href="#svetofor" x="215" y="205" />
+  <use xlink:href="#svetofor" x="265" y="155" transform="rotate(180,265,155)" />
+
+  <use xlink:href="#car" x="245" y="250" />
+
+</svg>

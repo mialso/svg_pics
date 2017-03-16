@@ -1,0 +1,14 @@
+{
+  "name": "svg-sandbox",
+  "version": "1.0.0",
+  "description": "svg sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mialso",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "0.9.0"
+  }
+}

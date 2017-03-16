@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="480" height="360">
+  <line x1="0" y1="180" x2="480" y2="180"
+    style="
+      stroke: #555555;
+       stroke-width:40;
+       fill: #999999;"/>
+  <line x1="100" y1="0" x2="100" y2="360"
+    style="
+      stroke: #555555;
+       stroke-width:40;
+       fill: #999999;"/>
+  <line x1="200" y1="0" x2="200" y2="360"
+    style="
+      stroke: #555555;
+       stroke-width:40;
+       fill: #999999;"/>
+  <line x1="300" y1="0" x2="300" y2="360"
+    style="
+      stroke: #555555;
+       stroke-width:40;
+       fill: #999999;"/>
+  <line x1="400" y1="0" x2="400" y2="360"
+    style="
+      stroke: #555555;
+       stroke-width:40;
+       fill: #999999;"/>
+</svg>
